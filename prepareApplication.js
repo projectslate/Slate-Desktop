@@ -10,7 +10,7 @@ const url = require('url')
 
 function proceedToMainApplicationWindow()
 {
-    let applicationWindow = new BrowserWindow({minWidth: 1000, minHeight: 500, frame: false, icon: "icon.png", show: false, backgroundColor: "#062726"})
+    let applicationWindow = new BrowserWindow({minWidth: 1000, minHeight: 500, width: 1000, height: 500, frame: false, icon: "icon.png", show: false, backgroundColor: "#062726"})
     applicationWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'index.html'),
         protocol: 'file:',
