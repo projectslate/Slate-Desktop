@@ -31,8 +31,6 @@ html, body
     background-color: #EDF0F2;
 
     height: 100%;
-
-    border-left: 5px solid #D2DBE0;
 }
 
 .windowControls
@@ -42,4 +40,26 @@ html, body
     background-color: #D2DBE0;
 
     -webkit-app-region: drag;
+}
+
+.navbutton
+{
+    -webkit-app-region: no-drag;
+
+    display: inline-flex;
+
+    margin: .2em .5em .2em .5em;
+
+    transition: all .2s ease-out;
+
+    cursor: pointer;
+}
+.navbutton:hover
+{
+    opacity: .7;
+}
+
+#minimize
+{
+    margin-left: auto;
 }

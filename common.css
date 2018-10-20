@@ -52,14 +52,6 @@ html, body
     font-family: roboto;
     src: url(fonts/Roboto-Regular.ttf);
 }
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-}
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-}
 
 .outline
 {

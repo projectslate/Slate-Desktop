@@ -18,5 +18,5 @@ function windowEventHandlers()
 
 let contentWrapper = document.getElementById("contentWrapper").style.height
 window.onload = () => {
-    
+    windowEventHandlers()
 }
