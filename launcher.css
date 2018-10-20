@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: #344A55;
+    overflow: hidden;
+
+    text-align: center;
+
+    -webkit-app-region: drag;
+}
+
+:not(input):not(textarea),
+:not(input):not(textarea)::after,
+:not(input):not(textarea)::before {
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.splash
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5em;
+}
+
+.progress
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#status
+{
+    position: absolute;
+    bottom: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    left: 0;
+    right: 0;
+
+    color: #D2DBE0;
+}

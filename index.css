@@ -1,0 +1,45 @@
+html, body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contentWrapper
+{
+    height: 100%;
+
+    display: flex;
+
+    flex: 1 1 auto;
+}
+
+.navagation
+{
+    display: inline-flex;
+
+    flex-grow: 1;
+
+    height: 100%;
+}
+
+.content
+{
+    display: inline-flex;
+
+    flex-grow: 3;
+
+    background-color: #EDF0F2;
+
+    height: 100%;
+
+    border-left: 5px solid #D2DBE0;
+}
+
+.windowControls
+{
+    display: flex;
+
+    background-color: #D2DBE0;
+
+    -webkit-app-region: drag;
+}
