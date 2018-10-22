@@ -52,6 +52,14 @@ html, body
     font-family: roboto;
     src: url(fonts/Roboto-Regular.ttf);
 }
+@font-face {
+    font-family: robotom;
+    src: url(fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: robotol;
+    src: url(fonts/Roboto-Light.ttf);
+}
 
 .outline
 {

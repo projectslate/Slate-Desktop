@@ -26,7 +26,7 @@ html, body
 {
     display: inline-flex;
 
-    flex-grow: 3;
+    flex-grow: 4;
 
     background-color: #EDF0F2;
 
@@ -40,6 +40,10 @@ html, body
     background-color: #D2DBE0;
 
     -webkit-app-region: drag;
+
+    justify-content: center;
+
+    align-items: center;
 }
 
 .navbutton
@@ -62,4 +66,59 @@ html, body
 #minimize
 {
     margin-left: auto;
+}
+
+.navagation-stack
+{
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    margin: 2em 1em 2em 1em;
+}
+
+.stackNode
+{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+
+    align-content: center;
+
+    width: 100%;
+}
+
+.nav-logo
+{
+    width: 35px;
+    height: 35px;
+}
+
+.nav-logo-tag
+{
+    color: #6B828D;
+
+    letter-spacing: .1rem;
+
+    font-size: 11pt;
+
+    font-family: robotol;
+
+    margin-left: 1em;
+
+    display: inline-flex;
+}
+
+.stackNodeElement
+{
+    display: inline-flex;
+}
+
+#settingsButton
+{
+    margin-left: auto;
+
+    color: #EDF0F2;
 }
