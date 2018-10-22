@@ -17,13 +17,19 @@
     <div class="contentWrapper" id="contentWrapper">
       <div class="navagation">
         <div class="navagation-stack">
-          <div class="stackNode">
+          <div class="stackNode" id="navStackHeader">
             <div class="stackNodeElement">
               <img src="iconNb.png" class="nav-logo">
             </div>
-            
             <div class="stackNodeElement" id="settingsButton">
-                <i class="material-icons">settings</i>
+                <i class="material-icons" style="cursor: pointer;">settings</i>
+            </div>
+          </div>
+
+          <div class="stackNode" id="launchButton">
+            <i class="material-icons" id="launchIcon">launch</i>
+            <div class="stackNodeElement" id="launchTag">
+              LAUNCH
             </div>
           </div>
         </div>
