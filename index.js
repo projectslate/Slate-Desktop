@@ -16,6 +16,7 @@ function windowEventHandlers()
     })
 }
 
-window.onload = () => {
+window.addEventListener("load", () =>
+{
     windowEventHandlers()
-}
+});

@@ -94,6 +94,14 @@ html, body
     font-size: 90%;
 
     cursor: pointer;
+
+    margin-top: 1.5em;
+
+    transition: all .2s ease-out;
+}
+.stackNode:hover
+{
+    opacity: .8;
 }
 
 .nav-logo
@@ -123,15 +131,13 @@ html, body
 {
     display: inline-block;
 
-    color: #EDF0F2;
+    color: #B5BDC2;
 
-    transition: all .2s ease-out;
+    transition: all .1s ease-out;
 
     cursor: pointer;
-}
-.stackNodeElement:hover
-{
-    color: #E4E7E9;
+
+    font-family: roboto;
 }
 
 #settingsButton
@@ -193,4 +199,15 @@ html, body
     width: 100%;
 
     cursor: default;
+}
+
+#navIcon
+{
+    color: #B5BDC2;
+
+    font-size: 105%;
+
+    cursor: pointer;
+
+    margin-right: 1em;
 }
