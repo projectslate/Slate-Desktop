@@ -138,7 +138,13 @@ html, body
 {
     margin-left: auto;
 
-    color: #EDF0F2;
+    color: #B6C3CE;
+
+    transition: all .2s ease-out;
+}
+#settingsButton:hover
+{
+    opacity: .7;
 }
 
 #launchButton
@@ -155,7 +161,7 @@ html, body
 }
 #launchButton:hover
 {
-    box-shadow: 0px 0px 7px #55EFC4;
+    box-shadow: 0px 0px 15px 3px #10212C;
 }
 
 #launchTag
@@ -177,7 +183,7 @@ html, body
 {
     color: #10212C;
 
-    font-size: 95%;
+    font-size: 105%;
 
     cursor: pointer;
 }
